@@ -1,0 +1,119 @@
+ul {
+    list-style: none;
+}
+
+#main-menu-options {
+    text-align: center;
+    background-color: red;
+}
+
+li {
+    margin: 10px;
+}
+
+.screen.active {
+    /*background-color: rgb(15, 15, 15);*/
+    display: block;
+    text-align: center;
+}
+
+.screen {
+    display: none;
+}
+
+#canvas {
+    /*width: 80%;*/
+    /*width: 500px;*/
+    /*height: 500px;*/
+    /*background: #EEEEEE;*/
+    /*background: red;*/
+    /*background-color: rgb(15, 15, 15);*/
+    /*display: block;*/
+    margin: 0 auto;
+
+    border-width: 4px;
+    background-color: #EEEEEE;
+    border-style:groove;
+}
+
+.bg-primary{
+     background-color:#F05F40
+}
+
+
+#option-new-game {
+    color: #000;
+}
+
+#option-high-scores {
+    color: #000;
+}
+
+#option-instructions {
+    color: #000;
+}
+
+#option-about {
+    color: #000;
+}
+
+@media (min-width: 1200px) { /*if not lg, change this criteria*/
+    .stretch{
+        width: 125%; /*the actual trick*/
+        /*text-align: center;*/
+    }
+}
+
+body {
+    /* The stretch width gives a small horizontal scroll, so this code will disable the scroll */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#podium-container {
+    /*position: relative;*/
+    /*position: absolute;*/
+    /*background-color: red;*/
+    text-align: center;
+}
+#services {
+    position: relative;
+}
+
+
+
+#podium0, #podium1, #podium2, #podium3, #podium4 {
+    width: 150px;
+    background: #F05F40;
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+}
+
+#high-score-text {
+    margin-top: 0;
+    padding-bottom: 150px;
+}
+
+#podium0 { /* gold */
+    height: 150px;
+}
+
+#podium1 { /* silver */
+    height: 120px;
+}
+#podium2 { /* bronze */
+    height: 90px;
+}
+
+#podium3 {
+    height: 60px;
+}
+
+#podium4 {
+    height: 30px;
+}
+
+#reset-scores-button {
+    margin-top: 30px;
+}
